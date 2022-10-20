@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+<!-- header-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/icon1.ico" alt="Bootstrap" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">[4기-A] 이상암</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/augustinLib">Github</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gbdai.tistory.com/">Tistory</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5">
+        <div class="container px-lg-5">
+            <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                <p class="text-center fs-3 fw-bolder">M1_monthly_project</p>
+                <p class="text-center fs-4 fw-bolder">Titanic EDA Website</p>
+                <p class="text-center fs-6 fw-bolder">After executing the EDA for the Titanic dataset, i build a website to check the results</p>
+            </div>
+        </div>
+    </header>
+
+<!-- Page Content-->
+    <section class="pt-4 min-vh-100">
+        <div class="container px-lg-5">
+            <div class="row gx-lg-5">
+                <div class="col-lg-6 col-xxl-4 mb-5 position-relative">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                            <h2 class="fs-4 fw-bold mb-3">Survived histogram</h2>
+                            <p class="text-center fs-6 fw-bolder">titanic dataset의 <br/> Survive histogram입니다. </p>
+                            <a class="btn btn-outline-secondary mb-2 position-absolute bottom-0 translate-middle-x" href="./survived-graph.html" role="button">See</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5 position-relative">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="p-4 p-lg-5 bg-light rounded-3 text-center ">
+                            <h2 class="fs-4 fw-bold mb-3">Survived-Sex histogram</h2>
+                            <p class="text-center fs-6 fw-bolder">성별 별 생존 histogram입니다. </p>
+                            <a class="btn btn-outline-secondary mb-2 position-absolute bottom-0 translate-middle-x" href="./survived-sex-graph.html" role="button">See</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5 position-relative">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="p-4 p-lg-5 bg-light rounded-3 text-center ">
+                            <h2 class="fs-4 fw-bold mb-3">Embarked-Pclass heatmap</h2>
+                            <p class="text-center fs-6 fw-bolder">Embarked-Pclass heatmap입니다. </p>
+                            <a class="btn btn-outline-secondary mb-2 position-absolute bottom-0 translate-middle-x" href="./embarked-pclass.html" role="button">See</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5 position-relative">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="p-4 p-lg-5 bg-light rounded-3 text-center ">
+                            <h2 class="fs-4 fw-bold mb-3">correlation heatmap</h2>
+                            <p class="text-center fs-6 fw-bolder">correlation heatmap입니다. </p>
+                            <a class="btn btn-outline-secondary mb-2 position-absolute bottom-0 translate-middle-x" href="./corration.html" role="button">See</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-dark mt-auto">
+        <div class="container"><p class="m-0 text-center text-white">Copyright © AugustinLib 2022</p></div>
+    </footer>
+
+</body>
+</html>
